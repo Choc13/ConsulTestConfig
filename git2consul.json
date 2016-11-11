@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "repos" : [{
+    "name" : "ConsulTestConfig",
+    "url" : "ssh://git@github.com:Choc13/ConsulTestConfig.git",
+    "branches" : ["development, staging, production"],
+    "hooks": [{
+      "type" : "polling",
+      "interval" : "1"
+    }]
+  }]
+}
